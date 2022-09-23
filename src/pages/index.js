@@ -1,22 +1,19 @@
-import Head from "next/head";
-
 import {
   useStoryblokState,
   getStoryblokApi,
   StoryblokComponent,
 } from "@storyblok/react";
-import Layout from "../components/Layout";
+import CustoHead from "../common/components/header/custo_head";
+import Layout from "../common/components/layout/Layout";
 
 export default function Home({ story }) {
   story = useStoryblokState(story);
 
   return (
+    
     <div>
-      <Head>
-        <title>Home</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-    <Layout>
+      <CustoHead />
+      <Layout>
       <StoryblokComponent blok={story.content} />
     </Layout>
     </div>
