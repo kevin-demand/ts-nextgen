@@ -28,7 +28,7 @@ const components = {
 };
 
 storyblokInit({
-  accessToken: process.env.STORYBLOK_PREVIEW_SECRET,
+  accessToken: process.env.STORYBLOK_PUBLIC_SECRET,
   apiOptions: {region: 'us'},
   use: [apiPlugin],
   components,
