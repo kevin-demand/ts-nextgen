@@ -60,7 +60,7 @@ const Footer = () => (
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-primary">
       <p>© {new Date().getFullYear()} Tuffshed<sup>®</sup>. All rights reserved.</p>
       <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="" href="#"><FontAwesomeIcon icon={faSearch} /></a></li>
+        <li class="ms-3"><a class="" href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
         
                 {/* <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xmlnsXlink:href="#instagram"></use></svg></a></li>
         <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xmlnsXlink:href="#facebook"></use></svg></a></li> */}
