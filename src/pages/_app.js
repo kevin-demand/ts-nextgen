@@ -1,6 +1,13 @@
 //import "bootstrap/dist/css/bootstrap.min.css"; 
 //import "../styles/globals.css";
+
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 import '../common/styles/index.scss';
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+// library.add(fab, faCoffee)
 import { useEffect } from "react";
 
 import { storyblokInit, apiPlugin } from '@storyblok/react';
@@ -28,11 +35,14 @@ const components = {
 };
 
 storyblokInit({
-  accessToken: process.env.STORYBLOK_PUBLIC_SECRET,
-  apiOptions: {region: 'us'},
+  accessToken: process.env.STORYBLOK_SECRET,
+  // apiOptions: {region: 'us'},
   use: [apiPlugin],
   components,
+  
 });
+
+
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
