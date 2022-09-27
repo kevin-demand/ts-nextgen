@@ -1,15 +1,12 @@
-//import "bootstrap/dist/css/bootstrap.min.css"; 
-//import "../styles/globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-library.add(fab)
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+library.add(fab);
+// purge css removes the fonts, so add the style sheet
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import '../common/styles/index.scss';
-
-
 import { useEffect } from "react";
-
 import { storyblokInit, apiPlugin } from '@storyblok/react';
 import feature_kdm from '../common/components/feature_kdm';
 import Grid from '../common/components/layout/Grid';
@@ -29,7 +26,7 @@ const components = {
   page: Page,
   Hero: Hero,
   menu_config: Menu_Config,
-  "menu_link": MenuLink,
+  menu_link: MenuLink,
   Article: Article,
   custo_head: custo_head, 
 };
@@ -41,8 +38,6 @@ storyblokInit({
   components,
   
 });
-
-
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {

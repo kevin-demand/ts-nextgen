@@ -1,11 +1,16 @@
-
-
-
 // HD Theme Colors
 $hdorange: #F58220;
-
-
 $primary:   $hdorange;
+
+
+
+//Defualts
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+h5 {
+    color:$primary;
+}
+
 
 
 

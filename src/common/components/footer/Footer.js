@@ -1,9 +1,9 @@
-import { faTwitter} from '@fortawesome/free-brands-svg-icons'
+// import { faTwitter} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const Footer = () => (
-  <section className="container-wide bg-dark">
+  <section className="container-wide bg-dark pt-3">
     <footer
       className=" container"
       aria-labelledby="footer-heading"
@@ -12,55 +12,56 @@ const Footer = () => (
         Footer
       </h2> */}
       <div className="row">
-        <div class="col-6 col-md-2 mb-3">
+        <div className="col-6 col-md-2 mb-3">
           <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          <ul className="nav flex-column">
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Home</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Features</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Pricing</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FAQs</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About</a></li>
           </ul>
         </div>
-        <div class="col-6 col-md-2 mb-3">
+        <div className="col-6 col-md-2 mb-3">
           <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          <ul className="nav flex-column">
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Home</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Features</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Pricing</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FAQs</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About</a></li>
           </ul>
         </div>
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        <div className="col-6 col-md-2 mb-3">
+          <h5 className='text-primary'>Section</h5>
+          <ul className="nav flex-column">
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Home</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Features</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Pricing</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FAQs</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About</a></li>
           </ul>
         </div>
-        <div class="col-md-5 offset-md-1 mb-3">
-          <form>
+        <div className="col-md-5 offset-md-1 mt-3 mb-3">
+          <form className='text-primary'>
             <h5>Subscribe to our newsletter</h5>
             <p>Monthly digest of what&rsquo;s new and exciting from us.</p>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
-              <button class="btn btn-primary" type="button">Subscribe</button>
+            <div className="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" className="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" className="form-control" placeholder="Email address" />
+              <button className="btn btn-primary" type="button">Subscribe</button>
             </div>
           </form>
         </div>
       </div>
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-primary">
-      <p>© {new Date().getFullYear()} Tuffshed<sup>®</sup>. All rights reserved.</p>
-      <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="text-primary" href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
-        
-                {/* <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xmlnsXlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xmlnsXlink:href="#facebook"></use></svg></a></li> */}
+      <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-primary">
+      <p>© {new Date().getFullYear()} Tuffshed. All rights reserved.</p>
+      <ul className="list-unstyled d-flex">
+        <li className="ms-3"><a className="text-primary" href="#"><FontAwesomeIcon icon={["fab", "instagram"]} size="1x" /></a></li>
+        <li className="ms-3"><a className="text-primary" href="#"><FontAwesomeIcon icon={["fab", "twitter"]} size="1x" /></a></li>
+        <li className="ms-3"><a className="text-primary" href="#"><FontAwesomeIcon icon={["fab", "facebook"]} size="1x" /></a></li>
+                {/* <li className="ms-3"><a className="link-dark" href="#"><svg className="bi" width="24" height="24"><use xmlnsXlink:href="#instagram"></use></svg></a></li>
+        <li className="ms-3"><a className="link-dark" href="#"><svg className="bi" width="24" height="24"><use xmlnsXlink:href="#facebook"></use></svg></a></li> */}
       </ul>
     </div>  
     </footer>

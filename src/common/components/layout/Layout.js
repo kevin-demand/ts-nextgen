@@ -1,4 +1,4 @@
-import Preheader from '../Preheader';
+import Preheader from '../header/Preheader';
 import Navigation from '../Navigation';
 import Footer from '../footer/Footer';
 
