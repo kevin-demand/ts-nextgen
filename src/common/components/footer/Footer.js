@@ -1,9 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSearch,
-  faAmbulance,
-  faAnchor,
-} from "@fortawesome/free-solid-svg-icons";
+import { faTwitter} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const Footer = () => (
   <section className="container-wide bg-dark">
@@ -48,7 +45,7 @@ const Footer = () => (
         <div class="col-md-5 offset-md-1 mb-3">
           <form>
             <h5>Subscribe to our newsletter</h5>
-            <p>Monthly digest of what's new and exciting from us.</p>
+            <p>Monthly digest of what&rsquo;s new and exciting from us.</p>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
               <label for="newsletter1" class="visually-hidden">Email address</label>
               <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
@@ -60,7 +57,7 @@ const Footer = () => (
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-primary">
       <p>© {new Date().getFullYear()} Tuffshed<sup>®</sup>. All rights reserved.</p>
       <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="" href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
+        <li class="ms-3"><a class="text-primary" href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
         
                 {/* <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xmlnsXlink:href="#instagram"></use></svg></a></li>
         <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xmlnsXlink:href="#facebook"></use></svg></a></li> */}

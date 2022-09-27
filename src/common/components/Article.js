@@ -1,10 +1,11 @@
+import Image from 'next/image'
 import { render } from 'storyblok-rich-text-react-renderer';
  
 const Article = ({ blok }) => {
   return (
     <section className="">
       <div className="container">
-        <img
+        <Image
           className=" img-repsonsive"
           alt={blok.image.alt}
           src={blok.image.filename}

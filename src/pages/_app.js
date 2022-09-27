@@ -1,13 +1,13 @@
 //import "bootstrap/dist/css/bootstrap.min.css"; 
 //import "../styles/globals.css";
-
-import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+library.add(fab)
 import '../common/styles/index.scss';
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-// library.add(fab, faCoffee)
+
+
 import { useEffect } from "react";
 
 import { storyblokInit, apiPlugin } from '@storyblok/react';
