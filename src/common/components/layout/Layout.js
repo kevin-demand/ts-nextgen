@@ -1,6 +1,6 @@
-import Preheader from '../header/Preheader';
-import Navigation from '../Navigation';
-import Footer from '../footer/Footer';
+import Preheader from '@/components/header/Preheader';
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/footer/Footer';
 
 
 

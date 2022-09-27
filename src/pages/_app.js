@@ -8,16 +8,16 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 import '../common/styles/index.scss';
 import { useEffect } from "react";
 import { storyblokInit, apiPlugin } from '@storyblok/react';
-import feature_kdm from '../common/components/feature_kdm';
-import Grid from '../common/components/layout/Grid';
-import Page from '../common/components/layout/Page';
-import Teaser from '../common/components/Teaser';
-import Hero from '../common/components/Hero';
+import feature_kdm from '@/components/feature_kdm';
+import Grid from '@/components/layout/Grid';
+import Page from '@/components/layout/Page';
+import Teaser from '@/components/Teaser';
+import Hero from '@/components/Hero';
 import Menu_Config from "../lib/Menu_Config";
-import HeaderMenu from "../common/components/header/HeaderMenu";
-import MenuLink from "../common/components/header/MenuLink";
-import Article from "../common/components/Article";
-import custo_head from "../common/components/header/custo_head";
+import HeaderMenu from "@/components/header/HeaderMenu";
+import MenuLink from "@/components/header/MenuLink";
+import Article from "@/components/Article";
+import custo_head from "@/components/header/custo_head";
 
 const components = {
   feature_kdm: feature_kdm,
@@ -25,8 +25,9 @@ const components = {
   teaser: Teaser,
   page: Page,
   Hero: Hero,
-  menu_config: Menu_Config,
+  config: Menu_Config,
   menu_link: MenuLink,
+  HeaderMenu:HeaderMenu,
   Article: Article,
   custo_head: custo_head, 
 };
