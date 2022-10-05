@@ -9,16 +9,16 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 import '../common/styles/index.scss';
 import { useEffect } from "react";
 import { storyblokInit, apiPlugin } from '@storyblok/react';
-import feature_kdm from '@/components/feature_kdm';
-import Grid from '@/components/layout/Grid';
-import Page from '@/components/layout/Page';
-import Teaser from '@/components/Teaser';
-import Hero from '@/components/Hero';
-import Menu_Config from "../lib/Menu_Config";
-import HeaderMenu from "@/components/header/HeaderMenu";
-import MenuLink from "@/components/header/MenuLink";
-import Article from "@/components/Article";
-import custo_head from "@/components/header/custo_head";
+import feature_kdm from "components/feature_kdm";
+import Grid from 'components/layout/Grid';
+import Page from 'components/layout/Page';
+import Teaser from 'components/Teaser';
+import Hero from 'components/Hero';
+import Menu_Config from "lib/Menu_Config";
+import HeaderMenu from "components/header/HeaderMenu";
+import MenuLink from "components/header/MenuLink";
+import Article from "components/Article";
+import custo_head from "components/header/custo_head";
 
 
 const components = {
