@@ -2,7 +2,8 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-library.add(fab);
+import { fas } from '@fortawesome/free-solid-svg-icons'
+library.add(fab, fas);
 // purge css removes the fonts, so add the style sheet
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import '../common/styles/index.scss';
@@ -19,6 +20,7 @@ import MenuLink from "@/components/header/MenuLink";
 import Article from "@/components/Article";
 import custo_head from "@/components/header/custo_head";
 
+
 const components = {
   feature_kdm: feature_kdm,
   grid: Grid,
@@ -30,6 +32,7 @@ const components = {
   HeaderMenu:HeaderMenu,
   Article: Article,
   custo_head: custo_head, 
+  
 };
 
 storyblokInit({

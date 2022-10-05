@@ -6,6 +6,8 @@ import {
 import CustoHead from "../common/components/header/custo_head";
 import Layout from "../common/components/layout/Layout";
 
+
+
 export default function Home({ story }) {
   story = useStoryblokState(story);
 
