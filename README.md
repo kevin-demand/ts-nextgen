@@ -1,3 +1,34 @@
+
+## Tuffshed NextGeneration Websites
+
+In development
+
+- nextjs
+- Typescript
+- bootstrap / SCSS
+- Express 
+- Redux
+
+
+
+### Local development
+Run proxy server on local 
+
+`~$ local-ssl-proxy --source 3010 --target 3000 --cert localhost.pem --key localhost-key.pem'
+
+Open localhost:3010 for secure site.
+
+### Package docs
+
+- [React Hook Form] (https://www.npmjs.com/package/@hookform/error-message)
+
+- [React Bootstrap] (https://react-bootstrap.github.io/)
+ 
+    - [NextJs SCSS Docs] (https://nextjs.org/docs/basic-features/built-in-css-support#sass-support)
+
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

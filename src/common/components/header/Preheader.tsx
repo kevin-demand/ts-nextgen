@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Modal } from 'react-bootstrap';
-import {Button} from 'react-bootstrap';
+import ZipCodeDialog from 'components/ZipCodeDialog';
+
 
 
 
@@ -25,7 +25,7 @@ const Preheader = () => {
                   <FontAwesomeIcon icon={["fas", "location-dot"]} size="1x" />
                   <span className=' pe-3'>My Delivery Zip:</span>
                   {/* //TODO consider location "modal" instead of inline form */}
-                  <a className="nav-link" onClick={handleShow} href="#">Enter Zip Code</a>
+                  <ZipCodeDialog></ZipCodeDialog>
                     {/* <form className='p'>
                       <input type="search" className="form-control form-control-dark form-control-sm" placeholder="Enter Zip Code" aria-label="Zip Code" />
                     </form> */}
@@ -43,20 +43,7 @@ const Preheader = () => {
           </div>
         </header>
       </section>
-      <Modal show={show} onHide={handleClose}  keyboard="false">
-      <Modal.Header closeButton>
-        <Modal.Title>Modal heading</Modal.Title>
-      </Modal.Header>
-      <Modal.Body>Are You Sure You Want This!.</Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
-          Close
-        </Button>
-        <Button variant="danger" onClick={ confirm_modal  }>
-        Yes
-        </Button>
-      </Modal.Footer>
-    </Modal>
+      
 
       </>
 
