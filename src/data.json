@@ -1,0 +1,258 @@
+{
+    "Shed":[
+       {
+          "TransactOnline":"True",
+          "Name":"SR-600",
+          "NiceName":null,
+          "Product":"Shed",
+          "Series":"Sundance",
+          "RoofType":"Ranch",
+          "Description":"Step up to a Sundance Series® SR-600. After many years, the design of The SR-600 hasn't changed much, and it's no wonder why. Simply put, the SR-600 is our most popular storage building, combining great features and a range of sizes that can fit in virtually any backyard. The building includes 6-foot sidewalls with endwall door placement and the TUFF SHED 5-Year Limited Warranty on workmanship and materials.",
+          "WarrantyTitle":"<h1>Sundance Series™ Storage Buildings Five-Year Limited Warranty</h1>",
+          "WarrantyBody":"",
+          "Images":[
+             {
+                "ErrorMessage":null,
+                "HasError":false,
+                "Id":9872,
+                "ImageData":null,
+                "Path":"3DModels/8x12-SR-600.jpg",
+                "IsColor":false,
+                "Color":null
+             }
+          ],
+          "Options":null,
+          "ProductSizes":null,
+          "RelatedModelDefinitions":null
+       },
+       {
+          "TransactOnline":"True",
+          "Name":"TR-700",
+          "NiceName":null,
+          "Product":"Shed",
+          "Series":"Sundance",
+          "RoofType":"Ranch",
+          "Description":"The Sundance Series® TR-700 is a taller version of the SR-600, with this ranch style building featuring 7-foot sidewalls. This popular model can accommodate door placement on sidewalls or endwalls.",
+          "WarrantyTitle":"<h1>Sundance Series™ Storage Buildings Five-Year Limited Warranty</h1>",
+          "WarrantyBody":"",
+          "Images":[
+             {
+                "ErrorMessage":null,
+                "HasError":false,
+                "Id":9878,
+                "ImageData":null,
+                "Path":"3DModels/10x12-TR-700.jpg",
+                "IsColor":false,
+                "Color":null
+             }
+          ],
+          "Options":null,
+          "ProductSizes":null,
+          "RelatedModelDefinitions":null
+       },
+       {
+          "TransactOnline":"True",
+          "Name":"TR-800",
+          "NiceName":null,
+          "Product":"Shed",
+          "Series":"Sundance",
+          "RoofType":"Ranch",
+          "Description":"If you need another foot of height on a ranch style building, then the Sundance Series® TR-800 is a great fit. The 8-foot sidewalls translate into more headroom, more room to hang tools on the wall, and even room to add an optional small overhead loft. Another benefit of the taller sidewalls is the taller door that comes standard on the TR-800. The 6'7\" steel-reinforced and patented door can be placed on an endwall or a sidewall.",
+          "WarrantyTitle":"<h1>Sundance Series™ Storage Buildings Five-Year Limited Warranty</h1>",
+          "WarrantyBody":"",
+          "Images":[
+             {
+                "ErrorMessage":null,
+                "HasError":false,
+                "Id":9879,
+                "ImageData":null,
+                "Path":"3DModels/12x16-TR-800.jpg",
+                "IsColor":false,
+                "Color":null
+             }
+          ],
+          "Options":null,
+          "ProductSizes":null,
+          "RelatedModelDefinitions":null
+       },
+       {
+          "TransactOnline":"True",
+          "Name":"TB-600",
+          "NiceName":null,
+          "Product":"Shed",
+          "Series":"Sundance",
+          "RoofType":"Barn",
+          "Description":"Take a step up to the Sundance Series® TB-600 model, which offers upgraded features in a classic barn style building. Considering the 6\" galvanized steel floor joists at the bottom, the additional room overhead, and the \"wraparound\" 5-Year Limited Warranty, it's no wonder why the TB-600 is so popular among our customers. The TB-600 features six-foot sidewalls, endwall door placement, and can accommodate popular options like double doors and overhead loft.",
+          "WarrantyTitle":"<h1>Sundance Series™ Storage Buildings Five-Year Limited Warranty</h1>",
+          "WarrantyBody":"",
+          "Images":[
+             {
+                "ErrorMessage":null,
+                "HasError":false,
+                "Id":9873,
+                "ImageData":null,
+                "Path":"3DModels/8x10-TB-600.jpg",
+                "IsColor":false,
+                "Color":null
+             }
+          ],
+          "Options":null,
+          "ProductSizes":null,
+          "RelatedModelDefinitions":null
+       },
+       {
+          "TransactOnline":"True",
+          "Name":"TB-700",
+          "NiceName":null,
+          "Product":"Shed",
+          "Series":"Sundance",
+          "RoofType":"Barn",
+          "Description":"The Sundance Series® TB-700 is identical to the TB-600, but with sidewalls a foot taller. This provides even more headroom and overhead storage. 7-foot sidewalls on the TB-700 give the customer more wall space to hang items like hand tools and also accommodate endwall or sidewall door placement.",
+          "WarrantyTitle":"<h1>Sundance Series™ Storage Buildings Five-Year Limited Warranty</h1>",
+          "WarrantyBody":"",
+          "Images":[
+             {
+                "ErrorMessage":null,
+                "HasError":false,
+                "Id":9874,
+                "ImageData":null,
+                "Path":"3DModels/12x16-TB-700.jpg",
+                "IsColor":false,
+                "Color":null
+             }
+          ],
+          "Options":null,
+          "ProductSizes":null,
+          "RelatedModelDefinitions":null
+       },
+       {
+          "TransactOnline":"True",
+          "Name":"TB-800",
+          "NiceName":null,
+          "Product":"Shed",
+          "Series":"Sundance",
+          "RoofType":"Barn",
+          "Description":"If you need another foot of height on a barn style building, then the Sundance Series® TB-800 is for you. The 8-foot sidewalls translate into more headroom, more room to hang tools on the wall, and plenty of to add an optional overhead loft. Another benefit of the taller sidewalls is the taller door that comes standard on the TB-800. The 6'7\" steel-reinforced and patented door can be placed on an endwall or a sidewall.",
+          "WarrantyTitle":"<h1>Sundance Series™ Storage Buildings Five-Year Limited Warranty</h1>",
+          "WarrantyBody":"",
+          "Images":[
+             {
+                "ErrorMessage":null,
+                "HasError":false,
+                "Id":9875,
+                "ImageData":null,
+                "Path":"3DModels/12x16-TB-800.jpg",
+                "IsColor":false,
+                "Color":null
+             }
+          ],
+          "Options":null,
+          "ProductSizes":null,
+          "RelatedModelDefinitions":null
+       },
+       {
+          "TransactOnline":"True",
+          "Name":"Sundance Lean-To",
+          "NiceName":null,
+          "Product":"Shed",
+          "Series":"Sundance",
+          "RoofType":"Lean To",
+          "Description":"The Sundance Series Lean-To model has its roof peak along one of the sidewalls instead of the center of the building. Door size varies on this model based on placement.",
+          "WarrantyTitle":"<h1>Sundance Series™ Storage Buildings Five-Year Limited Warranty</h1>",
+          "WarrantyBody":"",
+          "Images":[
+             {
+                "ErrorMessage":null,
+                "HasError":false,
+                "Id":9869,
+                "ImageData":null,
+                "Path":"3DModels/Lean-to.jpg",
+                "IsColor":false,
+                "Color":null
+             }
+          ],
+          "Options":null,
+          "ProductSizes":null,
+          "RelatedModelDefinitions":null
+       },
+       {
+          "TransactOnline":"True",
+          "Name":"TB-800 2S",
+          "NiceName":null,
+          "Product":"Shed",
+          "Series":"Sundance",
+          "RoofType":"Barn",
+          "Description":"Customers desiring barn style building with second floor can now add 2nd floor option to TB-800 model. Includes full interior stairs. ",
+          "WarrantyTitle":"<h1>Sundance Series™ Storage Buildings Five-Year Limited Warranty</h1>",
+          "WarrantyBody":"",
+          "Images":[
+             {
+                "ErrorMessage":null,
+                "HasError":false,
+                "Id":9876,
+                "ImageData":null,
+                "Path":"3DModels/TBD-800-2s.jpg",
+                "IsColor":false,
+                "Color":null
+             }
+          ],
+          "Options":null,
+          "ProductSizes":null,
+          "RelatedModelDefinitions":null
+       },
+       {
+          "TransactOnline":"True",
+          "Name":"MR-450",
+          "NiceName":null,
+          "Product":"Shed",
+          "Series":"Sundance",
+          "RoofType":"Ranch",
+          "Description":"Where HOA height restrictions exist, consider the Sundance Series® MR-450 model. The overall height is six feet, so it typically fits below a 6-foot fence line. Due to roof load requirements, this building may not be available in certain areas. See store for details.",
+          "WarrantyTitle":"<h1>Sundance Series™ Storage Buildings Five-Year Limited Warranty</h1>",
+          "WarrantyBody":"",
+          "Images":[
+             {
+                "ErrorMessage":null,
+                "HasError":false,
+                "Id":9870,
+                "ImageData":null,
+                "Path":"3DModels/6x10-MR-450.jpg",
+                "IsColor":false,
+                "Color":null
+             }
+          ],
+          "Options":null,
+          "ProductSizes":null,
+          "RelatedModelDefinitions":null
+       }
+    ],
+    "Garage":[
+       {
+          "TransactOnline":"True",
+          "Name":"Sundance Ranch Garage",
+          "NiceName":null,
+          "Product":"Garage",
+          "Series":"Sundance",
+          "RoofType":"Ranch",
+          "Description":"A garage is one addition to your home that will provide added storage space and protect your vehicles. Like all TUFF SHED buildings, our garages are designed so they can be customized with optional accessories. Our customers love having the ability to add optional upgrades, from the simple and standard (i.e. paint or ventilation) to the more complex or custom (i.e. roof pitch, or siding type). Concrete work is required, but not included in posted prices.",
+          "WarrantyTitle":"<h1>Sundance Series™ Storage Buildings Five-Year Limited Warranty</h1>",
+          "WarrantyBody":"",
+          "Images":[
+             {
+                "ErrorMessage":null,
+                "HasError":false,
+                "Id":9871,
+                "ImageData":null,
+                "Path":"3DModels/12x20-Premier-Ranch-Garage.jpg",
+                "IsColor":false,
+                "Color":null
+             }
+          ],
+          "Options":null,
+          "ProductSizes":null,
+          "RelatedModelDefinitions":null
+       }
+    ],
+    "StudioAndRecreational":null,
+    "CabinShell":null
+ }
